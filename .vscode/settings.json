@@ -1,0 +1,7 @@
+{
+    "markdownlint.config": {
+        "default": true,
+        // allow multiple H1 marp
+        "MD025": false
+    }
+}
