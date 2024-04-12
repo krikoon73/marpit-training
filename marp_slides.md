@@ -8,6 +8,27 @@ class: invert
 #backgroundImage: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 backgroundImage: "linear-gradient(to bottom, #004643, #001e1d)"
 paginate: true
+style: |
+    footer {
+        font-size: 14px
+    }
+    section::after {
+        font-family: Brush script MT;
+        font-size: 14px;
+    }
+    pre {
+        background: linear-gradient(to right, #2c3e50, #bdc3c7)
+    }
+    .columns {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 1rem;
+    }
+    .columns3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+    }
 
 ---
 
@@ -21,7 +42,11 @@ paginate: true
 
 Hello World!
 
-![bg](img/BuildingIPnetworksforgenerativeAIapplications.jpg)
+```json
+"Author": "ccompain
+```
+
+![bg right](img/BuildingIPnetworksforgenerativeAIapplications.jpg)
 
 ---
 
@@ -163,6 +188,8 @@ paginate: true
 <!--
 footer: 'April 2024'-->
 
+---
+
 # Add image as Footer
 
 ```markdown
@@ -175,4 +202,33 @@ footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
 <!--
 footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
 -->
+
+---
+
+# 3 columns
+
+<div class="columns3">
+<div>
+
+- test
+- test
+
+</div>
+<div>
+
+abc
+
+</div>
+<div>
+
+![h:300 sepia](img/pexels-adrien-olichon-2823459.jpg)
+
+</div>
+</div>
+
+---
+
+# Font size
+
+<style scoped>section {font-size: 14px}</style>
 

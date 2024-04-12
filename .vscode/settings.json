@@ -3,10 +3,20 @@
         "default": true,
         // allow multiple H1 marp
         "MD025": false,
-        "MD004": false
+        "MD004": false,
+        "MD033": {
+            "allowed_elements": [
+                "div",
+                "span",
+                "style",
+                "br",
+                "sup"
+            ]
+        }
     },
     "markdown.marp.themes": [
         "./themes/dracula.css",
         "./themes/einstein.css"
-    ]
+    ],
+    "markdown.marp.enableHtml": true
 }
