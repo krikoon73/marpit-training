@@ -7,6 +7,14 @@ class: invert
 #backgroundImage: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
 #backgroundImage: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 backgroundImage: "linear-gradient(to bottom, #004643, #001e1d)"
+paginate: true
+
+---
+
+# How to build marp slides
+
+<!--_paginate: false
+-->
 
 ---
 # My First Slide
@@ -130,4 +138,17 @@ backgroundImage: ""
   - subitem
 
 * This will be hidden at first
+```
+
+---
+
+# Paginate
+
+```markdown
+paginate: true
+
++ on specific page
+
+<!--_paginate: false
+-->
 ```
