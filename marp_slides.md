@@ -3,6 +3,10 @@ marp: true
 author: cc
 theme: default
 class: invert
+#backgroundImage: #bdc3c7;  /* fallback for old browsers */
+#backgroundImage: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+#backgroundImage: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+backgroundImage: "linear-gradient(to bottom, #004643, #001e1d)"
 
 ---
 # My First Slide
@@ -63,4 +67,32 @@ Marp community themes:
 - [Beam](https://rnd195.github.io/marp-community-themes/theme/beam.html)
 - [Marpstyle](https://github.com/cunhapaulo/marpstyle)
 
+---
 
+# Using community themes
+
+- Add css from some community repos
+- Add foloowing VSCode settings:
+
+```json
+"markdown.marp.themes": [
+        "./themes/dracula.css",
+        "./themes/einstein.css"
+    ]
+```
+
+- Use theme: `theme: <theme-name>`
+- Update the workflow: `--theme ./temes/dracula.css ... etc.`
+
+---
+
+# Using gradient background
+
+Where to find gradients and colors:
+
+- [Uigradients](https://uigradients.com)
+- [HappyHues](https://happyhues.co)
+
+```yaml
+backgroundImage: ""
+```
