@@ -152,3 +152,10 @@ paginate: true
 <!--_paginate: false
 -->
 ```
+
+---
+
+# Footer
+
+<!--
+footer: 'April 2024'-->
