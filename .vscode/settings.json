@@ -3,5 +3,9 @@
         "default": true,
         // allow multiple H1 marp
         "MD025": false
-    }
+    },
+    "markdown.marp.themes": [
+        "./themes/dracula.css",
+        "./themes/einstein.css"
+    ]
 }
