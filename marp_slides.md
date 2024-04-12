@@ -108,3 +108,26 @@ backgroundImage: ""
 ```
 
 ![bg right fit](https://github.com/srl-labs/containerlab/raw/main/docs/images/containerlab_export_white_ink.svg?sanitize=true)
+
+---
+
+# Using list
+
+- item1
+- item2
+
+---
+
+# Animated list
+
+- Some item
+  - subitem
+
+* This will be hidden at first
+
+```markdown
+- Some item
+  - subitem
+
+* This will be hidden at first
+```
