@@ -149,13 +149,30 @@ paginate: true
 
 + on specific page
 
-<!--_paginate: false
--->
+<!--_paginate: false -->
 ```
 
 ---
 
 # Footer
 
+```markdown
+<!-- footer: 'April 2024'-->
+```
+
 <!--
 footer: 'April 2024'-->
+
+# Add image as Footer
+
+```markdown
+<!-- Add footer starting from this slide -->
+<!--
+footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
+-->
+```
+<!-- Add footer starting from this slide -->
+<!--
+footer: '![h:20](https://www.arista.com/assets/images/logo/Arista_Logo.png)'
+-->
+
